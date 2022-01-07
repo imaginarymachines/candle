@@ -1,0 +1,20 @@
+{
+    "name": "candle/food",
+    "title": "food",
+    "description": "",
+    "attributes": {
+        "content": {
+            "type": "string",
+            "default": "Hi Roy"
+        }
+    },
+    "category": "media",
+    "apiVersion": 2,
+    "icon": "smiley",
+    "supports": {
+        "html": false
+    },
+    "editorScript": "file:../../build/block-food.js",
+	"editorStyle": "file:../../build/block-food.css",
+	"style": "file:../../build/block-food.css"
+}

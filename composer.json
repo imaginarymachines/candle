@@ -2,7 +2,8 @@
     "name": "shelob9/candle",
     "description": "Candles",
     "require": {
-        "php": "^7.2|^8.0"
+        "php": "^7.2|^8.0",
+        "illuminate/container": "^8.78"
     },
     "type": "wordpress-plugin",
     "autoload": {
