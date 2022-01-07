@@ -1,0 +1,16 @@
+{
+    "slug": "candle",
+    "pluginId": 139,
+    "buildId": 145,
+    "entryPoints": {
+        "adminPages": [],
+        "blocks": []
+    },
+    "buildIncludes": [
+        "candle.php",
+        "readme.txt",
+        "php",
+        "vendor",
+        "build"
+    ]
+}
