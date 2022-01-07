@@ -14,9 +14,7 @@ class ContainerTest extends TestCase {
 
     public function testContainer() {
         $plugin = new Plugin();
-        $plugin->bind( Product::class, function($plugin,$args){
-            return new Product(...$args);
-        });
+        Product::register($plugin);
         $this->assertInstanceOf(
             Product::class,
             $plugin->make(Product::class,['name'])
@@ -38,10 +36,7 @@ class ContainerTest extends TestCase {
 
     public function testApiClient() {
         $plugin = new Plugin();
-        $api = new ApiClient(
-            'key'
-        );
-        $plugin->instance(ApiClient::class, $api);
+        ApiClient::register($plugin);
         $this->assertInstanceOf(
             ApiClient::class,
             $plugin->make(ApiClient::class)
