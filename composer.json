@@ -29,5 +29,8 @@
         "test:wordpress": "phpunit --config=phpunit-integration.xml",
         "sniffs": "phpcs php/ && phpcs tests/",
         "fixes": "phpcbf php/ && phpcbf tests/"
+    },
+    "platform": {
+        "php": "7.2"
     }
 }
