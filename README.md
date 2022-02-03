@@ -4,14 +4,14 @@
 
 ## Installation
 
+Requires PHP 7.3 or later.
+
 - Git clone:
     - `git clone git@github.com:shelob9/candle.git`
 - Install javascript dependencies
     - `yarn`
 - Install php dependencies
     - `composer install`
-
-
 ## Working With PHP
 
 ### Autoloader
@@ -64,4 +64,3 @@ There is a special phpunit container for running WordPress tests, with WordPress
     - `composer install`
 - Test
     - `composer test:wordpress`
-

@@ -1,7 +1,6 @@
 <?php
 namespace Candles\Tests\Integration;
 
-use PHPUnit\Framework\TestCase;
 
 /**
  * These tests proves integration test setup works.

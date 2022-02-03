@@ -2,7 +2,8 @@
 
 namespace Candles;
 
-class Plugin
+use Illuminate\Container\Container;
+class Plugin extends Container
 {
 
     public function sayHi(): string
