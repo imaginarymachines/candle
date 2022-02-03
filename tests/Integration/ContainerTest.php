@@ -1,7 +1,6 @@
 <?php
 namespace Candles\Tests\Integration;
 
-use PHPUnit\Framework\TestCase;
 
 use Candles\Plugin;
 use Candles\ApiClient;
